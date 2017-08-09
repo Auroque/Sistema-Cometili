@@ -3,7 +3,8 @@
 <head>
 	<title>Cadastro de Usuario</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/locastyle.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -21,19 +22,28 @@
 
 			<!-- Text input-->
 			<div id="form-mesa" class="form-group">
-			  <div class="col-md-4 fd-branco">
+			  <div class="col-md-3 fd-branco">
 			  <label>Código</label>  
-			  <input id="IdCme" name="IdCme" type="number" placeholder="" class="form-control input-md" required="" value="0">
+			  <input id="IdUsu" name="IdUsu" type="number" placeholder="" class="form-control input-md" required="" value="0">
 			    
 			  </div>
-
-			  <div class="col-md-7 fd-branco margem">
+			  <div class="col-md-4 fd-branco">
+			  <label>ID Acesso</label>  
+			  <input id="IdAcessoUSU" name="IdAcessoUSU" type="text" placeholder="" class="form-control input-md" required="" value="" maxlength="20">
+			    
+			  </div>
+			  <div class="col-md-4 fd-branco">
+			  <label>CPF / CNPJ</label>  
+			  <input id="CpfCnpjUsu" name="CpfCnpjUsu" type="text" class="form-control .cpf-mask" placeholder="Ex.: 000.000.000-00" data-mask="000.000.000-00" maxlength="14" autocomplete="off">
+			    
+			  </div>
+<!-- 			  <div class="col-md-4 fd-branco margem">
 			  <label>Situação</label>
 			    <select id="SituacaoCme" name="SituacaoCme" class="form-control">
 			      <option value="1">ATIVO</option>
 			      <option value="2">INATIVO</option>
 			    </select>
-			  </div>
+			  </div> -->
 			</div>
 
 			<!-- Text input-->
@@ -58,8 +68,10 @@
     </div>
   </div>
 </div>
-
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="javascripts/locastyle.js"></script><!--Link biblioteca js do bootstrap-->
 	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
 </body>
 </html>
