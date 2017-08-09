@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Usuario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Form Name -->
+			<h1>Cadastro de Mesa</h1>
+
+			<!-- Text input-->
+			<div id="form-mesa" class="form-group">
+			  <div class="col-md-4 fd-branco">
+			  <label>Código</label>  
+			  <input id="IdCme" name="IdCme" type="number" placeholder="" class="form-control input-md" required="" value="0">
+			    
+			  </div>
+
+			  <div class="col-md-7 fd-branco margem">
+			  <label>Situação</label>
+			    <select id="SituacaoCme" name="SituacaoCme" class="form-control">
+			      <option value="1">ATIVO</option>
+			      <option value="2">INATIVO</option>
+			    </select>
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div id="form-mesa" class="form-group">
+			  <div class="col-md-11 fd-branco">
+			  <label>Descrição</label>  
+			  <input id="IdentificacaoCme" name="IdentificacaoCme" type="text" placeholder="" class="form-control input-md" required="" maxlength="60">
+			    
+			  </div>
+			</div>
+
+			<!-- Button (Double) -->
+			<div class="form-group">
+			  <div class="col-md-4 col-md-offset-8 botoes">
+			    <button id="button1id" name="button1id" class="btn btn-success"><img src="icon/confirm.png"></button>
+			    <button id="button2id" name="button2id" class="btn btn-danger"><img src="icon/cancel.png"></button>
+			  </div>
+			</div>
+
+			</fieldset>
+		</form>
+    </div>
+  </div>
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>
