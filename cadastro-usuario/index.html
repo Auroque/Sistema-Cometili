@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cadastro de Usuario</title>
+	<title>Cadastro de Usuário</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -17,54 +17,68 @@
 			<fieldset>
 
 			<!-- Form Name -->
-			<h1>Cadastro de Mesa</h1>
+			<h1>Cadastro de Usuários</h1>
 
 			<!-- Text input-->
 			<div id="form-mesa" class="form-group">
 			  <div class="col-md-2 fd-branco">
-			  <label>Código</label>  
-			  <input id="IdUsu" name="IdUsu" type="number" placeholder="" class="form-control input-md" required="" value="0">
-			    
+			  	<label>Código</label>  
+			  	<input id="IdUsu" name="IdUsu" type="number" placeholder="" class="form-control input-md" required="" value="0">			    
 			  </div>
 			  <div class="col-md-4 fd-branco margem">
-			  <label>ID Acesso</label>  
-			  <input id="IdAcessoUSU" name="IdAcessoUSU" type="text" placeholder="" class="form-control input-md" required="" value="" maxlength="20">
-			    
+			  	<label>ID Acesso</label>  
+			  	<input id="IdAcessoUSU" name="IdAcessoUSU" type="text" placeholder="" class="form-control input-md" required="" value="" maxlength="20">			    
 			  </div>
 			  <div class="col-md-4 fd-branco margem">
-			  <label>CPF / CNPJ</label>  
-			  <input id="CpfCnpjUsu" name="CpfCnpjUsu" type="text" class="form-control .mixed-mask" maxlength="18" autocomplete="off" onkeypress='mascaraMutuario(this,cpfCnpj)' onblur='clearTimeout()'>
-			    
+			  	<label>CPF / CNPJ</label>  
+			  	<input id="CpfCnpjUsu" name="CpfCnpjUsu" type="text" class="form-control .mixed-mask" maxlength="18" autocomplete="off" onkeypress='mascaraMutuario(this,cpfCnpj)' onblur='clearTimeout()'>			    
 			  </div>
-<!-- 			  <div class="col-md-4 fd-branco margem">
-			  <label>Situação</label>
-			    <select id="SituacaoCme" name="SituacaoCme" class="form-control">
-			      <option value="1">ATIVO</option>
-			      <option value="2">INATIVO</option>
-			    </select>
-			  </div> -->
 			</div>
 
 			<!-- Text input-->
 			<div id="form-mesa" class="form-group">
 			  <div class="col-md-7 fd-branco">
-			  <label>Nome</label>  
-			  <input id="NomeUsu" name="NomeUsu" type="text" placeholder="" class="form-control input-md" required="" maxlength="40">
-			    
+			  	<label>Nome</label>  
+			  	<input id="NomeUsu" name="NomeUsu" type="text" placeholder="" class="form-control input-md" required="" maxlength="40">			    
 			  </div>
 			  <div class="col-md-3 fd-branco margem">
-			  <label>Senha</label>  
-			  <input id="SenhaUsu" name="SenhaUsu" type="password" placeholder="" class="form-control input-md" required="" value="" maxlength="8">
-			    
+			  	<label>Senha</label>  
+			  	<input id="SenhaUsu" name="SenhaUsu" type="password" placeholder="" class="form-control input-md" required="" value="" maxlength="8">			    
 			  </div>
 			</div>
 			<div id="form-mesa" class="form-group">
 			  <div class="col-md-3 fd-branco">
-			  <label>Fator taxa serviços</label>  
-			  <input id="FatorTxsCts" name="FatorTxsCts" type="text" placeholder="" class="form-control input-md" required="" maxlength="40">
-			    
+			  	<label>Fator taxa serviços</label>  
+			  	<input id="FatorTxsCts" name="FatorTxsCts" type="number" placeholder="" class="form-control input-md" required="" maxlength="40">			    
 			  </div>
+			  <div class="col-md-3 fd-branco margem">
+			  	<label>Comissão</label>  
+			  	<input id="ComissaoCts" name="ComissaoCts" type="number" placeholder="" class="form-control input-md" required="">			    
+			  </div>
+			  <div class="col-md-4 fd-branco margem">
+			  <label>Situação</label>
+			    <select id="AtivoCts" name="AtivoCts" class="form-control">
+			      <option value="1">ATIVO</option>
+			      <option value="2">INATIVO</option>
+			    </select>
+			  </div>
+			</div>
+			<div id="form-mesa" class="form-group">
+				<div class="col-md-10 fd-branco">
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Perfil</a></li>
+				    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Operaçães</a></li>
+				    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Recursos</a></li>
+				  </ul>
 
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="home">Teste</div>
+				    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+				    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+				  </div>
+				</div>
 			</div>
 			<!-- Button (Double) -->
 			<div class="form-group">
