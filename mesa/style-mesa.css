@@ -1,0 +1,49 @@
+
+label{
+	color: #207e8e;
+	text-transform: uppercase;
+}
+
+h1{
+	color: #ffffff;
+	margin-left: 45px;
+}
+
+.modal-sm{
+	width: 600px;
+}
+
+.form-horizontal #form-mesa{
+	margin: 15px 0 5px 45px;
+}
+
+.modal-content{
+	background-color: #207e8e;
+}
+
+.margem{
+	margin-left:2px;
+}
+
+.fd-branco{
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.fd-branco input{
+	border: none;
+	box-shadow: none;
+	text-transform: uppercase;
+}
+
+.botoes{
+	padding-left: 5;
+
+}
+
+#button1id, #button2id{
+	margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
