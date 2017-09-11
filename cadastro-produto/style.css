@@ -1,0 +1,64 @@
+
+label, .nav-tab-title{
+	color: #207e8e;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1{
+	color: #ffffff;
+	margin-left: 40px;
+}
+
+.modal-sm{
+	width: 1000px;
+}
+
+.form-horizontal #form-usuarios{
+	margin: 15px 0 5px 40px;
+    width: 1000px;
+}
+
+.modal-content{
+	background-color: #207e8e;
+}
+
+.margem{
+	margin-left:2px;
+}
+
+.fd-branco{
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.col-md-9{
+	width: calc(75% - 2px);
+}
+
+.fd-branco input{
+	border: none;
+	box-shadow: none;
+	text-transform: uppercase;
+}
+
+.botoes{
+	padding-left: 5;
+
+}
+
+#button1id, #button2id{
+	margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+#tab-content{
+	height: 150px;
+	padding: 5px;
+}
+
+.recursos ul li a{
+	padding: 10px 5px;
+}
