@@ -4,6 +4,10 @@ h1{
 	margin-left: 40px;
 }
 
+li a{
+	text-transform: uppercase;
+}
+
 .margin-left-col3{
 	width: calc(25% - 2px);
     margin-left: 2px!important;
@@ -49,4 +53,22 @@ h1{
 	text-transform: uppercase;
 	border-color: #fff;
 	box-shadow: none;
+}
+
+.tabela{
+	background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-tab-title{
+	font-size: 0.8em;
+	color: #207e8e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tab-content{
+	min-height: 100px;
+	padding: 5px;
 }
