@@ -1,7 +1,25 @@
 
+.verde{
+	color:#006400;
+}
+
+.vermelho{
+	color:#B22222;
+}
+
 h1{
 	color: #ffffff;
 	margin-left: 40px;
+}
+
+.direita{
+	float: right;
+	transform: rotate(45deg);
+
+}
+
+.tabela a{
+	text-decoration: none;
 }
 
 li a{
@@ -79,7 +97,7 @@ li a{
 }
 
 .tab-content{
-	min-height: 100px;
+	min-height: 200px;
 	padding: 5px;
 }
 
@@ -96,4 +114,14 @@ li a{
 .img-container img{
 	width: 100%;
     height: auto;
+}
+
+.btn-img{
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.btn-img:hover{
+	opacity: 0.8;
+	text-shadow: 1px 1px 1px #ccc;
 }
