@@ -16,3 +16,22 @@ h1{
 	margin-right: 0;
     margin-left: 0;
 }
+
+.bg-branco{
+	background: #fff;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.bg-branco label{
+	font-size: 0.8em;
+	color: #207e8e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bg-branco input{
+	text-transform: uppercase;
+	border-color: #fff;
+	box-shadow: none;
+}
