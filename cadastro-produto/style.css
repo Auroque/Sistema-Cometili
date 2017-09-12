@@ -4,6 +4,21 @@ h1{
 	margin-left: 40px;
 }
 
+.margin-left-col3{
+	width: calc(25% - 2px);
+    margin-left: 2px!important;
+}
+
+.margin-left-col4{
+	width: calc(33.33333333% - 2px);
+    margin-left: 2px!important;
+}
+
+.margin-left-col8{
+	width: calc(66.66666667% - 2px);
+    margin-left: 2px!important;
+}
+
 .modal-content{
 	background-color: #207e8e;
 }
