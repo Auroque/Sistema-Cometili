@@ -18,6 +18,11 @@ li a{
     margin-left: 2px!important;
 }
 
+.margin-left-col6{
+	width: calc(50% - 2px);
+    margin-left: 2px!important;
+}
+
 .margin-left-col8{
 	width: calc(66.66666667% - 2px);
     margin-left: 2px!important;
@@ -42,11 +47,16 @@ li a{
     padding-bottom: 5px;
 }
 
-.bg-branco label{
+.bg-branco label, .titulo-img{
 	font-size: 0.8em;
 	color: #207e8e;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.titulo-img{
+	margin-left: 0;
+	text-align: center;
 }
 
 .bg-branco input{
@@ -71,4 +81,19 @@ li a{
 .tab-content{
 	min-height: 100px;
 	padding: 5px;
+}
+
+.img-grupo, .img-produto{
+	margin-top: 15px;
+}
+
+.img-container{
+	position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.img-container img{
+	width: 100%;
+    height: auto;
 }
