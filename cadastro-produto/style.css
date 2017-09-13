@@ -97,7 +97,7 @@ li a{
 }
 
 .tab-content{
-	min-height: 200px;
+	min-height: 295px;
 	padding: 5px;
 }
 
@@ -124,4 +124,56 @@ li a{
 .btn-img:hover{
 	opacity: 0.8;
 	text-shadow: 1px 1px 1px #ccc;
+}
+
+.botoes{
+	float: right;
+}
+
+.botoes ul{
+	list-style: none;
+	margin-right: 5px;
+}
+
+.botoes ul li{
+	float: left;
+	margin: 15px 10px;
+}
+
+.botoes ul li a {
+	text-decoration: none;
+    font-size: 1.8em;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#combo{
+	background-color: #112e33;
+}
+
+#check{
+	background-color: #006400;
+}
+
+#eraser{
+	background-color: #B22222;
+}
+
+#pencil{
+	background-color: #FFD700;
+}
+
+#plus{
+	background-color: #02b302;
+}
+
+#search{
+	background-color: #DDA0DD;
+}
+
+#combo:hover, #check:hover, #eraser:hover, #pencil:hover, #plus:hover, #search:hover{
+	opacity: 0.8;
+	border:1px solid #000000;
 }
