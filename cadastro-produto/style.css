@@ -9,7 +9,7 @@
 
 h1{
 	color: #ffffff;
-	margin-left: 40px;
+	margin-left: 13px;
 }
 
 .direita{
@@ -62,7 +62,7 @@ li a{
 .bg-branco{
 	background: #fff;
     border-radius: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .bg-branco label, .titulo-img{
@@ -97,7 +97,7 @@ li a{
 }
 
 .tab-content{
-	min-height: 295px;
+	min-height: 179px;
 	padding: 5px;
 }
 
@@ -176,4 +176,8 @@ li a{
 #combo:hover, #check:hover, #eraser:hover, #pencil:hover, #plus:hover, #search:hover{
 	opacity: 0.8;
 	border:1px solid #000000;
+}
+
+.form-group{
+	margin-bottom: 2px;
 }

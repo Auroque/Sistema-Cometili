@@ -3,19 +3,19 @@ label, .nav-tab-title{
 	color: #207e8e;
 	text-transform: uppercase;
 	font-weight: 700;
+	font-size: 0.8em;
 }
 
 h1{
 	color: #ffffff;
-	margin-left: 40px;
 }
 
 .modal-sm{
-	width: 1000px;
+	width: 700px;
 }
 
 .form-horizontal #form-usuarios{
-	margin: 15px 0 5px 40px;
+	margin: 2px 0 0 0;
     width: 1000px;
 }
 
@@ -30,7 +30,7 @@ h1{
 .fd-branco{
 	background-color: #ffffff;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 2px;
 }
 
 .fd-branco input{
@@ -41,6 +41,7 @@ h1{
 
 .botoes{
 	padding-left: 5;
+	margin-top: 2px;
 
 }
 
@@ -57,4 +58,8 @@ h1{
 
 .recursos ul li a{
 	padding: 10px 5px;
+}
+
+.nav-tab-8{
+	min-width: 671px;
 }
