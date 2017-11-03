@@ -1,5 +1,6 @@
 
 label, .nav-tab-title{
+	font-size: 0.8em;
 	color: #207e8e;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7,16 +8,14 @@ label, .nav-tab-title{
 
 h1{
 	color: #ffffff;
-	margin-left: 40px;
 }
 
 .modal-sm{
-	width: 1000px;
+	width: 800px;
 }
 
 .form-horizontal #form-usuarios{
-	margin: 15px 0 5px 40px;
-    width: 1000px;
+	margin: 0 0 2px 0;
 }
 
 .modal-content{
@@ -25,6 +24,10 @@ h1{
 
 .margem{
 	margin-left:2px;
+}
+
+#descricao{
+	width: calc(83.33333333% - 2px);
 }
 
 .fd-branco{
@@ -44,6 +47,7 @@ h1{
 }
 
 .botoes{
+	float: right;
 	padding-left: 5;
 
 }
