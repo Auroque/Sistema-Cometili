@@ -6,7 +6,6 @@ label{
 
 h1{
 	color: #ffffff;
-	margin-left: 45px;
 }
 
 .modal-sm{
@@ -14,7 +13,7 @@ h1{
 }
 
 .form-horizontal #form-mesa{
-	margin: 15px 0 5px 45px;
+	margin: 0 0 2px 0;
 }
 
 .modal-content{
@@ -22,6 +21,7 @@ h1{
 }
 
 .margem{
+	width: calc(75% - 2px);
 	margin-left:2px;
 }
 
@@ -39,6 +39,7 @@ h1{
 
 .botoes{
 	padding-left: 5;
+	float: right;
 
 }
 
