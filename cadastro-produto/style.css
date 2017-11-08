@@ -181,3 +181,7 @@ li a{
 .form-group{
 	margin-bottom: 2px;
 }
+
+#modal-tamanho{
+	width: 600px;
+}
