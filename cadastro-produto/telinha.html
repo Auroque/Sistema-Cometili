@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Telinha</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document" id="modal-tamanho">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Telinha</h1>
+
+				<div class="col-md-4">
+					<form>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Codigo</label>
+			            <input name="codteli" id="codteli" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Data Início</label>
+			            <input name="datateli" id="datateli" type="date" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Data Término</label>
+			            <input name="termli" id="termli" type="date" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Hora Início</label>
+			            <input name="hini" id="hini" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Hora Término</label>
+			            <input name="hterm" id="hterm" type="text" class="form-control" id="recipient-name">
+			          </div>
+			        </form>
+				</div>
+				<div class="col-md-8">
+					<div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Descrição</label>
+			            <input name="codteli" id="codteli" type="text" class="form-control" id="recipient-name">
+			        </div>
+			        <div class="col-md-12 bg-branco gp-alt-2">
+			        	<label for="recipient-name" class="control-label">Dias da semana</label>
+			        	<div class="col-md-12">
+			        		Aqui vai o dia da semana
+			        	</div>
+			        </div>
+				</div>
+				<div class="botoes">
+					<ul>
+						<li><a id="check" class="check" href="#"><i class="fa fa-check" aria-hidden="true"></i></a></li>
+						<li><a id="eraser" class="eraser" href="#"><i class="fa fa-eraser" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Promoção</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Cadastro de Promoção</h1>
+
+				<div class="col-md-6">
+					<form>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Código</label>
+			            <input name="codpromo" id="codpromo" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-8 bg-branco margin-left-col8">
+			            <label for="recipient-name" class="control-label">Descrição da Promoção</label>
+			            <input name="descpromo" id="descpromo" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Peça Promocional</label>
+			            <input name="pecapromo" id="pecapromo" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Fator Venda</label>
+			            <input name="fatvenda" id="fatvenda" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Fator Custo</label>
+			            <input name="fatcusto" id="fatcusto" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Agenda</label>
+			            <input name="agenda" id="agenda" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Grupo</label>
+			            <input name="grupo" id="grupo" type="text" class="form-control" id="recipient-name">
+			          </div>
+			        </form>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-6 bg-branco gp-alt">
+						<label for="recipient-name" class="control-label">Produtos do grupo</label>
+						<div class="col-md-12">
+							aqui vai da tabela
+						</div>
+					</div>
+					<div class="col-md-6 bg-branco margin-left-col6 gp-alt">
+						<label for="recipient-name" class="control-label">Produtos do grupo</label>
+						<div class="col-md-12">
+							aqui vai da tabela
+						</div>
+					</div>
+				</div>
+				<div class="botoes">
+					<ul>
+						<li><a id="combo" class="combo" href="#">COMBO</a></li>
+						<li><a id="check" class="check" href="#"><i class="fa fa-check" aria-hidden="true"></i></a></li>
+						<li><a id="eraser" class="eraser" href="#"><i class="fa fa-eraser" aria-hidden="true"></i></a></li>
+						<li><a id="pencil" class="pencil" href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></li>
+						<li><a id="plus" class="plus" href="#"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+						<li><a id="search" class="search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>

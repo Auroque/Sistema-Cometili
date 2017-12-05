@@ -50,6 +50,14 @@ li a{
 	background-color: #207e8e;
 }
 
+.gp-alt{
+	min-height: 241px;
+}
+
+.gp-alt-2{
+	min-height: 244px;
+}
+
 .modal-lg{
 	width: 1100px;
 }
