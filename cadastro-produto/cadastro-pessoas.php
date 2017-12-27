@@ -24,105 +24,27 @@
 					<form>
 			          <div class="form-group col-md-2 bg-branco">
 			            <label for="recipient-name" class="control-label">Código</label>
-			            <input name="CodProduto" id="CodProduto" type="number" class="form-control" id="recipient-name">
+			            <input name="idpfj" id="idpfj" type="number" class="form-control">
 			          </div>
 			          <div class="form-group col-md-5 bg-branco margin-left-col5">
-			            <label for="recipient-name" class="control-label">Código de Barras</label>
-			            <input name="CdBarras" id="CdBarras" type="number" class="form-control" id="recipient-name">
+			            <label for="recipient-name" class="control-label">CPF / CNPJ</label>
+			            <input name="cpfcnpjpfj" id="cpfcnpjpfj" type="number" class="form-control">
 			          </div>
 			          <div class="form-group col-md-5 bg-branco margin-left-col5">
-			            <label for="recipient-name" class="control-label">Código de Barras</label>
-			            <input name="CdBarras" id="CdBarras" type="number" class="form-control" id="recipient-name">
+			            <label for="recipient-name" class="control-label">RG / Ins. Estadual</label>
+			            <input name="inscricaopfj" id="inscricaopfj" type="number" class="form-control">
 			          </div>
 			          <div class="form-group col-md-12 bg-branco">
-			            <label for="recipient-name" class="control-label">Descrição de Produto</label>
-			            <input name="DescProduto" id="DescProduto" type="text" class="form-control" id="recipient-name">
+			            <label for="recipient-name" class="control-label">Nome</label>
+			            <input name="nomepfj" id="nomepfj" type="text" class="form-control" >
 			          </div>
-			          <div class="form-group col-md-9 bg-branco">
-			            <label for="recipient-name" class="control-label">Descrição Resumida</label>
-			            <input name="DescResumo" id="DescResumo" type="text" class="form-control" id="recipient-name">
+			          <div class="form-group col-md-7 bg-branco">
+			            <label for="recipient-name" class="control-label">Fantasia</label>
+			            <input name="fantasiapfj" id="fantasiapfj" type="text" class="form-control" >
 			          </div>
-			          <div class="form-group col-md-3 bg-branco margin-left-col3">
-			            <label for="recipient-name" class="control-label">Unidade</label>
-			            <input name="Unit" id="Unit" type="number" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco">
-			            <label for="recipient-name" class="control-label">Código Interno</label>
-			            <input name="CdInterno" id="CdInterno" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Código Grupo</label>
-			            <input name="CdGrupo" id="CdGrupo" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Grupo</label>
-			            <input name="GrupoProduto" id="GrupoProduto" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco">
-			            <label for="recipient-name" class="control-label">Preço de Venda</label>
-			            <input name="PrecoVenda" id="PrecoVenda" type="number" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Preço de Custo</label>
-			            <input name="PrecoCusto" id="PrecoCusto" type="number" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Custo Médio</label>
-			            <input name="CustoMedio" id="CustoMedio" type="number" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco">
-			            <label for="recipient-name" class="control-label">Preço de Compra</label>
-			            <input name="PrecoCompra" id="PrecoCompra" type="number" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Embalagem Compra</label>
-			            <input name="EmbalCompra" id="EmbalCompra" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">NCM</label>
-			            <input name="ncm" id="ncm" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco">
-			            <label for="recipient-name" class="control-label">Origem Produto</label>
-			            <div class="btn-group">
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    INFORMAÇÕES <span class="caret"></span>
-						  </button>
-						  <ul class="dropdown-menu">
-						    <li><a href="#">Item 1</a></li>
-						    <li><a href="#">Item 2</a></li>
-						    <li><a href="#">Item 3</a></li>
-						  </ul>
-						</div>
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Limite Venda</label>
-			            <input name="LimVenda" id="LimVenda" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Tipo Item</label>
-			            <div class="btn-group">
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    INFORMAÇÕES <span class="caret"></span>
-						  </button>
-						  <ul class="dropdown-menu">
-						    <li><a href="#">Item 1</a></li>
-						    <li><a href="#">Item 2</a></li>
-						    <li><a href="#">Item 3</a></li>
-						  </ul>
-						</div>
-			          </div>
-			          <div class="form-group col-md-4 bg-branco">
-			            <label for="recipient-name" class="control-label">Cest</label>
-			            <input name="cest" id="cest" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Data de cadastro</label>
-			            <input name="DataCadastro" id="DataCadastro" type="text" class="form-control" id="recipient-name">
-			          </div>
-			          <div class="form-group col-md-4 bg-branco margin-left-col4">
-			            <label for="recipient-name" class="control-label">Saldo em Estoque</label>
-			            <input name="SaldoEstoque" id="SaldoEstoque" type="text" class="form-control" id="recipient-name">
+			          <div class="form-group col-md-5 bg-branco margin-left-col5">
+			            <label for="recipient-name" class="control-label">Nasci. / Abert.</label>
+			            <input name="nascimentopfj" id="nascimentopfj" type="date" class="form-control" >
 			          </div>
 			        </form>
 			        <div class="col-md-12 tabela">
