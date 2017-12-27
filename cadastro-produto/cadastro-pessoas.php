@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Pessoas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" id="modal-tamanho" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Cadastro de Pessoas</h1>
+
+				<div class="col-md-12">
+					<form>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Código</label>
+			            <input name="CodProduto" id="CodProduto" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-8 bg-branco margin-left-col8">
+			            <label for="recipient-name" class="control-label">Código de Barras</label>
+			            <input name="CdBarras" id="CdBarras" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Descrição de Produto</label>
+			            <input name="DescProduto" id="DescProduto" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-9 bg-branco">
+			            <label for="recipient-name" class="control-label">Descrição Resumida</label>
+			            <input name="DescResumo" id="DescResumo" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-3 bg-branco margin-left-col3">
+			            <label for="recipient-name" class="control-label">Unidade</label>
+			            <input name="Unit" id="Unit" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Código Interno</label>
+			            <input name="CdInterno" id="CdInterno" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Código Grupo</label>
+			            <input name="CdGrupo" id="CdGrupo" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Grupo</label>
+			            <input name="GrupoProduto" id="GrupoProduto" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Preço de Venda</label>
+			            <input name="PrecoVenda" id="PrecoVenda" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Preço de Custo</label>
+			            <input name="PrecoCusto" id="PrecoCusto" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Custo Médio</label>
+			            <input name="CustoMedio" id="CustoMedio" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Preço de Compra</label>
+			            <input name="PrecoCompra" id="PrecoCompra" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Embalagem Compra</label>
+			            <input name="EmbalCompra" id="EmbalCompra" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">NCM</label>
+			            <input name="ncm" id="ncm" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Origem Produto</label>
+			            <div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    INFORMAÇÕES <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Item 1</a></li>
+						    <li><a href="#">Item 2</a></li>
+						    <li><a href="#">Item 3</a></li>
+						  </ul>
+						</div>
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Limite Venda</label>
+			            <input name="LimVenda" id="LimVenda" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Tipo Item</label>
+			            <div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    INFORMAÇÕES <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Item 1</a></li>
+						    <li><a href="#">Item 2</a></li>
+						    <li><a href="#">Item 3</a></li>
+						  </ul>
+						</div>
+			          </div>
+			          <div class="form-group col-md-4 bg-branco">
+			            <label for="recipient-name" class="control-label">Cest</label>
+			            <input name="cest" id="cest" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Data de cadastro</label>
+			            <input name="DataCadastro" id="DataCadastro" type="text" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Saldo em Estoque</label>
+			            <input name="SaldoEstoque" id="SaldoEstoque" type="text" class="form-control" id="recipient-name">
+			          </div>
+			        </form>
+			        <div class="col-md-12 tabela">
+						<!-- Nav tabs -->
+					  <ul class="nav nav-tabs" role="tablist">
+					    <li role="presentation" class="active"><a class="nav-tab-title" href="#composicao" aria-controls="composicao" role="tab" data-toggle="tab">Composição</a></li>
+					    <li role="presentation"><a class="nav-tab-title" href="#adicionais" aria-controls="adicionais" role="tab" data-toggle="tab">Adicionais</a></li>
+					    <li role="presentation"><a class="nav-tab-title" href="#perfilTrib" aria-controls="perfilTrib" role="tab" data-toggle="tab">Perfil Trib.</a></li>
+					    <li role="presentation"><a class="nav-tab-title" href="#promocao" aria-controls="promocao" role="tab" data-toggle="tab">Promoção</a></li>
+					    <li role="presentation"><a class="nav-tab-title" href="#eventos" aria-controls="eventos" role="tab" data-toggle="tab">Eventos</a></li>
+					  </ul>
+
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+					    <div role="tabpanel" class="tab-pane tab-content active" id="composicao">Local da Tabela1</div>
+					    <div role="tabpanel" class="tab-pane tab-content" id="adicionais">Local da Tabela2</div>
+					    <div role="tabpanel" class="tab-pane tab-content" id="perfilTrib">Local da Tabela3</div>
+					    <div role="tabpanel" class="tab-pane tab-content" id="promocao">Local da Tabela4</div>
+					    <div role="tabpanel" class="tab-pane tab-content" id="eventos">Local da Tabela5</div>
+					  </div>						
+					</div>
+				</div>
+				<div class="botoes">
+					<ul>
+						<li><a id="combo" class="combo" href="#">COMBO</a></li>
+						<li><a id="check" class="check" href="#"><i class="fa fa-check" aria-hidden="true"></i></a></li>
+						<li><a id="eraser" class="eraser" href="#"><i class="fa fa-eraser" aria-hidden="true"></i></a></li>
+						<li><a id="pencil" class="pencil" href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></li>
+						<li><a id="plus" class="plus" href="#"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+						<li><a id="search" class="search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+	   </div>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>
