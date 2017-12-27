@@ -36,6 +36,11 @@ li a{
     margin-left: 2px!important;
 }
 
+.margin-left-col5{
+	width: calc(41.66666667% - 2px);
+	margin-left: 2px!important
+}
+
 .margin-left-col6{
 	width: calc(50% - 2px);
     margin-left: 2px!important;
@@ -192,4 +197,19 @@ li a{
 
 #modal-tamanho{
 	width: 600px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+   input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   margin: 0; 
 }

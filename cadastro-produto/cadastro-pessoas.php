@@ -22,11 +22,15 @@
 
 				<div class="col-md-12">
 					<form>
-			          <div class="form-group col-md-4 bg-branco">
+			          <div class="form-group col-md-2 bg-branco">
 			            <label for="recipient-name" class="control-label">Código</label>
 			            <input name="CodProduto" id="CodProduto" type="number" class="form-control" id="recipient-name">
 			          </div>
-			          <div class="form-group col-md-8 bg-branco margin-left-col8">
+			          <div class="form-group col-md-5 bg-branco margin-left-col5">
+			            <label for="recipient-name" class="control-label">Código de Barras</label>
+			            <input name="CdBarras" id="CdBarras" type="number" class="form-control" id="recipient-name">
+			          </div>
+			          <div class="form-group col-md-5 bg-branco margin-left-col5">
 			            <label for="recipient-name" class="control-label">Código de Barras</label>
 			            <input name="CdBarras" id="CdBarras" type="number" class="form-control" id="recipient-name">
 			          </div>
