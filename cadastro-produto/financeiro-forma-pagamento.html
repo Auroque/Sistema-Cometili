@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formas de Pagamento</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" id="modal-tamanho" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Formas de Pagamento</h1>
+
+				<div class="col-md-12">
+					<form>
+			          <div class="form-group col-md-2 bg-branco">
+			            <label for="recipient-name" class="control-label">Código</label>
+			            <input name="idfpa" id="idfpa" type="number" class="form-control">
+			          </div>
+			          <div class="form-group col-md-6 bg-branco margin-left-col6">
+			            <label for="recipient-name" class="control-label">Descrição</label>
+			            <input id="descrifpa" name="descrifpa" type="text" class="form-control" maxlength="20">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">CONDIÇÃO</label>
+			            <div class="btn-group largura-full">
+						  <button type="button" class="btn btn-default dropdown-toggle largura-full" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    VISTA <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Prazo</a></li>
+						  </ul>
+						</div>
+			          </div>
+			          <div class="form-group col-md-5 bg-branco">
+			            <label for="recipient-name" class="control-label">VINCULO</label>
+			            <div class="btn-group largura-full">
+						  <button type="button" class="btn btn-default dropdown-toggle largura-full" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						   NENHUM <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">DINHEIRO</a></li>
+						    <li><a href="#">CARTÃO POS</a></li>
+						    <li><a href="#">CARTÃO TEF</a></li>
+						    <li><a href="#">CREDIARIO</a></li>
+						    <li><a href="#">CHEQUE</a></li>
+						  </ul>
+						</div>
+			          </div>
+			          <div class="form-group col-md-3 bg-branco margin-left-col3">
+			            <label for="recipient-name" class="control-label">Parcelas</label>
+			            <input name="parcelasfpa" id="parcelasfpa" type="number" class="form-control" placeholder="NENHUM">
+			          </div>
+			          <div class="form-group col-md-4 bg-branco margin-left-col4">
+			            <label for="recipient-name" class="control-label">Intervalo</label>
+			            <input name="intervalofpa" id="intervalofpa" type="date" class="form-control" >
+			          </div>
+			          <div class="form-group col-md-12 bg-branco">
+			          		<p>ORDEM E DESCRIÇÃO NA FRENTE DE CAIXA</p>
+				        <div class="form-group col-md-3 bg-branco">
+			            	<input id="ordemfefpa" name="ordemfefpa" type="text" class="form-control">
+			          	</div>
+				        <div class="form-group col-md-9 bg-branco">
+			            	<input id="descrifefpa" name="descrifefpa" type="text" class="form-control"  maxlength="20">
+			          	</div>
+				       </div>
+				       <!-- toglle -->
+				       <div class="form-group col-md-12 campo_busca sem_espaco">
+			          		<p class="p2">ORDEM E DESCRIÇÃO NA FRENTE DE CAIXA</p>
+				        	<div class="form-group col-md-4 bg-branco">
+			            		<label for="recipient-name" class="control-label">Cartão</label>
+			            		<input id="tipocartaofpa" name="tipocartaofpa" type="text" class="form-control" maxlength="20">
+			          		</div>
+			          		<div class="form-group col-md-4 bg-branco margin-left-col4">
+			            		<label for="recipient-name" class="control-label">Financiamento</label>
+			            		<input id="tipofinfpa" name="tipofinfpa" type="text" class="form-control" maxlength="20">
+			          		</div>
+			          		<div class="form-group col-md-4 bg-branco margin-left-col4">
+			            		<label for="recipient-name" class="control-label">Limite Parcelas</label>
+			            		<input id="limparcembfpa" name="limparcembfpa" type="text" class="form-control" maxlength="20">
+			          		</div>
+			          		<div class="form-group col-md-4 bg-branco">
+			            		<label for="recipient-name" class="control-label">Bandeira</label>
+			            		<input id="redeembfpa" name="redeembfpa" type="text" class="form-control" maxlength="20">
+			          		</div>
+			          		<div class="form-group col-md-8 bg-branco margin-left-col8">
+			            		<label for="recipient-name" class="control-label">Transações BLOQUEADAS SiTef</label>
+			            		<input id="bloqueioembfpa" name="bloqueioembfpa" type="text" class="form-control" maxlength="100">
+			          		</div>
+			          		<div class="form-group col-md-12 bg-branco">
+			          		<p>Rede Adquirente</p>
+				       	 	<div class="form-group col-md-3 bg-branco">
+			            		<input id="idadqfpa" name="idadqfpa" type="text" class="form-control">
+			          		</div>
+				        	<div class="form-group col-md-9 bg-branco">
+			            		<input id="descrifefpa" name="descrifefpa" type="text" class="form-control">
+			          		</div>
+				       	</div>
+				       </div>
+			        </form>
+				</div>
+				<div class="botoes">
+					<ul>
+						<li><a id="search" class="search busca" href="#">TEF</i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+	   </div>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>

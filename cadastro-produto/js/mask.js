@@ -1,3 +1,8 @@
+//ANIMAÇÃO DA BUSCA
+$( ".busca" ).click(function() {
+  $( ".campo_busca" ).slideToggle( "1000" );
+});
+
 function mascaraMutuario(o,f){
     v_obj=o
     v_fun=f
