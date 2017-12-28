@@ -1,3 +1,10 @@
+p{
+	padding-top: 7px;
+	font-size: 0.8em;
+    color: #207e8e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 .verde{
 	color:#006400;
@@ -26,6 +33,11 @@ li a{
 	text-transform: uppercase;
 }
 
+.margin-left-col2{
+	width: calc(16.66666667% - 2px);
+    margin-left: 2px!important;
+}
+
 .margin-left-col3{
 	width: calc(25% - 2px);
     margin-left: 2px!important;
@@ -46,8 +58,18 @@ li a{
     margin-left: 2px!important;
 }
 
+.margin-left-col7{
+	width: calc(58.33333333% - 2px);
+    margin-left: 2px!important;
+}
+
 .margin-left-col8{
 	width: calc(66.66666667% - 2px);
+    margin-left: 2px!important;
+}
+
+.margin-left-col10{
+	width: calc(83.33333333% - 2px);
     margin-left: 2px!important;
 }
 
@@ -212,4 +234,20 @@ input[type=number]::-webkit-inner-spin-button {
    -moz-appearance: textfield;
    appearance: textfield;
    margin: 0; 
+}
+
+#tab-tam{
+	min-height: 260px;
+	background-color: #207e8e;
+}
+
+#area-texto{
+	margin: 0px;
+    width: 492px;
+    height: 232px;
+}
+
+.selectpicker{
+	padding-top: 15px;
+	border: 0;
 }
