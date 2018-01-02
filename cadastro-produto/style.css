@@ -98,6 +98,10 @@ li a{
 	background-color: #207e8e;
 }
 
+.alt-line{
+	line-height: 50px;
+}
+
 .gp-alt{
 	min-height: 241px;
 }

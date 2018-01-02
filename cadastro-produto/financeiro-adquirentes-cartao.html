@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adquirentes de Cartão</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" id="modal-tamanho" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Adquirentes de Cartão</h1>
+
+				<div class="col-md-12">
+					<form>
+			          <div class="form-group col-md-2 bg-branco">
+			            <label for="recipient-name" class="control-label">Código</label>
+			            <input name="IdAdq" id="IdAdq" type="number" class="form-control">
+			          </div>
+			          <div class="form-group col-md-10 bg-branco margin-left-col9">
+					  	<label for="recipient-name" class="control-label">CNPJ Adquirente</label>  
+					  	<input id="CNPJAdq" name="CNPJAdq" type="text" class="form-control .mixed-mask" maxlength="18" autocomplete="off" onkeypress='mascaraMutuario(this,cpfCnpj)' onblur='clearTimeout()'>			    
+					  </div>
+					  <div class="form-group col-md-12 bg-branco">
+			            <label for="recipient-name" class="control-label">Nome Adquirente</label>
+			            <input name="DescrAdq" id="DescrAdq" type="text" class="form-control">
+			          </div>
+				       <!-- toglle -->
+				       <div class="form-group col-md-12 sem_espaco">
+			          		<p class="p2">Configuração cartão de débito</p>
+				        	<div class="form-group col-md-6 bg-branco">
+			            		<label for="recipient-name" class="control-label">Taxa (%)</label>
+			            		<input name="TxDebitoAdq" id="TxDebitoAdq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-6 bg-branco margin-left-col6">
+			            		<label for="recipient-name" class="control-label">Dias Recebimento</label>
+			            		<input name="DiasDebitoAdq" id="DiasDebitoAdq" type="date" class="form-control">
+			          		</div>
+				       </div>
+				       	<div class="form-group col-md-12 sem_espaco">
+			          		<p class="p2">Configuração cartão de débito</p>
+				        	<div class="form-group col-md-2 bg-branco">
+			            		<label for="recipient-name" class="control-label">Faixa</label>
+			            		<input name="DescrAdq" id="DescrAdq" type="number" class="form-control" placeholder="01">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Até Parcelas</label>
+			            		<input name="LimParFx1Adq" id="LimParFx1Adq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Taxa (%)</label>
+			            		<input name="TxParFx1Adq" id="TxParFx1Adq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-2 bg-branco">
+			            		<label for="recipient-name" class="control-label">Faixa</label>
+			            		<input name="DescrAdq" id="DescrAdq" type="number" class="form-control" placeholder="02">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Até Parcelas</label>
+			            		<input name="LimParFx2Adq" id="LimParFx2Adq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Taxa (%)</label>
+			            		<input name="TxParFx2Adq" id="TxParFx2Adq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-2 bg-branco">
+			            		<label for="recipient-name" class="control-label">Faixa</label>
+			            		<input name="DescrAdq" id="DescrAdq" type="number" class="form-control" placeholder="03">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Até Parcelas</label>
+			            		<input name="LimParFx3Adq" id="LimParFx3Adq" type="number" class="form-control">
+			          		</div>
+			          		<div class="form-group col-md-5 bg-branco margin-left-col5">
+			            		<label for="recipient-name" class="control-label">Taxa (%)</label>
+			            		<input name="TxParFx3Adq" id="TxParFx3Adq" type="number" class="form-control">
+			          		</div>
+				       </div>
+			        </form>
+				</div>
+				<div class="botoes">
+					<ul>
+						<li><a id="search" class="search" href="#">TEF</i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+	   </div>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>

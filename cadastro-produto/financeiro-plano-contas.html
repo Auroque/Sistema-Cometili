@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plano de Contas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Small modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-lg" id="modal-tamanho" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+			<fieldset>
+
+			<!-- Formulario -->
+			<h1>Plano de Contas</h1>
+
+				<form>
+					<div class="col-md-12">
+			          <div class="form-group col-md-2 bg-branco">
+			            <label for="recipient-name" class="control-label">Código</label>
+			            <input name="IdPcg" id="IdPcg" type="number" class="form-control">
+			          </div>
+			          <div class="form-group col-md-10 bg-branco margin-left-col9">
+					  	<label for="recipient-name" class="control-label">Descrição da Conta</label>  
+					  	<input id="DescruPcg" name="DescruPcg" type="text" class="form-control" maxlength="40">			    
+					  </div>
+						<div class="form-group col-md-12 bg-branco">
+					          <div class="form-group col-md-4 bg-branco">
+					           <label for="recipient-name" class="control-label">CONDIÇÃO</label>
+					            <div class="btn-group largura-full">
+								  <button type="button" class="btn btn-default dropdown-toggle largura-full" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    VISTA <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Prazo</a></li>
+								  </ul>
+								</div>
+					          </div>
+					          <div class="form-group col-md-4 bg-branco margin-left-col4">
+					           <input type="checkbox" aria-label="...">
+					            <label for="recipient-name" class="control-label alt-line">Ativa</label>
+					          </div>
+					          <div class="form-group col-md-4 bg-branco margin-left-col4">
+					           <input type="checkbox" aria-label="...">
+					            <label for="recipient-name" class="control-label alt-line">Conta de Fluxo</label>
+					          </div>
+					       </div>
+					       <div class="form-group col-md-12 bg-branco">
+			          		<p>Nível II da COnta</p>
+				       	 		<div class="form-group col-md-3 bg-branco">
+			            			<input id="Nivel2Pcg" name="Nivel2Pcg" type="number" class="form-control">
+			          			</div>
+				        		<div class="form-group col-md-9 bg-branco">
+			            			<input id="descrifefpa" name="descrifefpa" type="text" class="form-control">
+			          			</div>
+				       		</div>
+				       		<div class="form-group col-md-12 bg-branco">
+			          		<p>Nível III da COnta</p>
+				       	 		<div class="form-group col-md-3 bg-branco">
+			            			<input id="Nível3Pcg" name="Nível3Pcg" type="number" class="form-control">
+			          			</div>
+				        		<div class="form-group col-md-9 bg-branco">
+			            			<input id="descrifefpa" name="descrifefpa" type="text" class="form-control">
+			          			</div>
+				       		</div>
+				       		<div class="form-group col-md-12 bg-branco">
+			          		<p>Grupo Reduzido no balancete gerencial</p>
+				       	 		<div class="form-group col-md-3 bg-branco">
+			            			<input id="IdPcrPcg" name="IdPcrPcg" type="number" class="form-control">
+			          			</div>
+				        		<div class="form-group col-md-9 bg-branco">
+			            			<input id="descrifefpa" name="descrifefpa" type="text" class="form-control">
+			          			</div>
+				       		</div>
+				       		<div class="form-group col-md-12 bg-branco">
+			          		<p>NGrupo do DRE Reduzido</p>
+				       	 		<div class="form-group col-md-3 bg-branco">
+			            			<input id="IdPcdPcg" name="IdPcdPcg" type="number" class="form-control">
+			          			</div>
+				        		<div class="form-group col-md-9 bg-branco">
+			            			<input id="descrifefpa" name="descrifefpa" type="text" class="form-control">
+			          			</div>
+				       		</div>
+					</div>
+			       </form>
+				<div class="botoes">
+					<ul>
+						<li><a id="search" class="search" href="#">TEF</i></a></li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+	   </div>
+    </div>
+  </div>
+</div>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--Link java script-->
+	<script src="bootstrap/js/bootstrap.min.js"></script><!--Link biblioteca js do bootstrap-->
+	<script src="js/mask.js"></script><!--Link biblioteca js do bootstrap-->
+</body>
+</html>
